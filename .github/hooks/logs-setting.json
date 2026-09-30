@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      { "type": "command", "command": "node .github/hooks/probe.js UserPromptSubmit" }
+    ],
+    "Stop": [
+      { "type": "command", "command": "node .github/hooks/probe.js Stop" }
+				],
+				"SubagentStop": [
+					{
+						"type": "command",
+            "command": "node .github/hooks/probe.js SubagentStop"
+					}
+				]
+  }
+}

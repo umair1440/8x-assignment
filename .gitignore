@@ -1,0 +1,25 @@
+# Secrets and env files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+!.env.example
+
+# Dependencies
+backend/vendor/
+frontend/node_modules/
+node_modules/
+
+# Build output, logs, local data
+frontend/dist/
+backend/storage/logs/*.log
+backend/database/*.sqlite
+*.sqlite
+.gemini/hook-debug.log
+
+# OS
+.DS_Store
+Thumbs.db
